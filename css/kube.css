@@ -1443,6 +1443,13 @@ input.input-smaller {
   left: 0;
   z-index: 101;
 }
+.navigation-relative {
+  float: left
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 101;
+}
 /* Pills */
 .navbar-pills a,
 .navbar-pills span {
