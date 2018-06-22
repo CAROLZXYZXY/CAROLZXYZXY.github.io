@@ -1,4 +1,3 @@
-"use strict";
 
 // function that creates dummy data for demonstration
 function createDummyData() {
@@ -36,7 +35,73 @@ function createDummyData() {
 }
 
 // creating the dummy static data
-var data = createDummyData();
+var data = {
+    2018: {
+        06: {
+            25: [
+                {
+                    startTime: "00:00",
+                    endTime: "18:00",
+                    text: "DL583 DTW->PVG"
+                },
+                {
+                    startTime: "18:00",
+                    endTime: "21:00",
+                    text: "reunion dinner with my family"
+                }
+            ],
+            26 : [
+                {
+                    startTime: "9:00",
+                    endTime: "12:00",
+                    text: "Go to Dentist"
+                }
+                 
+            ],
+            28 : [
+                {
+                    startTime: "9:00",
+                    endTime: "12:00",
+                    text: "Go to Hospital & Check my Eyes"
+                },
+                {
+                    startTime: "13:00",
+                    endTime: "24:00",
+                    text: "Visiting SJTU!"
+                }
+
+            ],
+            29 : [
+                {
+                    startTime: "09:00",
+                    endTime: "22:00",
+                    text: "All day in SJTU!"
+                }
+            ],
+            30: [
+                {
+                    startTime: "11:00",
+                    endTime: "14:00",
+                    text: "Lunch with my parents' friends & their children"
+                }
+            ],
+            31: [
+                {
+                    startTime: "00:00",
+                    endTime: "24:00",
+                    text: "All day reserved for family"
+                }
+            ]
+        },
+        07:{
+            03:{
+                startTime: "12:00",
+                endTime: "24:00",
+                text: "DL582 PVG-> DTW, miss you guys!"
+            }
+        }
+    }
+}
 
 // initializing a new calendar object, that will use an html container to create itself
 var calendar = new Calendar("calendarContainer", // id of html container for calendar
