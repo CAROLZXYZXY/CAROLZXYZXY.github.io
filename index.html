@@ -2,190 +2,230 @@
 <html>
 <head lang="en">
     <title>Xinyi(Carol) Zheng</title>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is Carol Xinyi Zheng's personal website! Enjoy~">
     <meta name="author" content="Afnizar Nur Ghifari">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="css/kube.min.css"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/custom.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
     <link rel="shortcut icon" href="img/um.png">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
-    <link href="css/calendarorganizer.min.css" rel="stylesheet">
+	<link href="./css/calendarorganizer.min.css" rel="stylesheet">
 </head>
 
-<style>
-    .calendar.small, .events.small {
-        width: 300px;
-        margin: 0 auto;
-    }
-
-    .calendar *, .events * {
-        -webkit-box-sizing: content-box;
-        box-sizing: content-box;
-    }
-</style>
 
 <body>
-<img style="float:left; margin-top: 20px; margin-bottom: 20px; margin-left: 20px; position: relative; z-index:200"
-     src="./img/um.png" height="50" width="50">
-<img style="float:left; margin-top: 20px; margin-bottom: 20px; margin-left: 5px; position: relative; z-index:200"
-     src="./img/sjtu.png" height="50" width="50">
-<!-- Navigation -->
-<div class="main-nav">
-    <div class="container">
-        <header class="group top-nav">
-            <nav class="navbar logo-w navbar-left">
-                <a class="logo" href="index.html">Carol Xinyi Zheng</a>
-            </nav>
-            <nav id="navbar-1" class="navbar item-nav navbar-right">
-                <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="archive.html">Archive</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
-</div>
+<img style="float:left; margin-top: 20px; margin-bottom: 20px; margin-left: 20px; position: relative; z-index:200" src="./img/um.png" height="50" width="50">
+<img style="float:left; margin-top: 20px; margin-bottom: 20px; margin-left: 5px; position: relative; z-index:200" src="./img/sjtu.png" height="50" width="50">
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<nav class="navbar logo-w navbar-left" >
+					<a class="logo" href="index.html">Carol Xinyi Zheng</a>
+				</nav>
+			    <nav id="navbar-1" class="navbar item-nav navbar-right">
+				    <ul>
+				        <li class="active"><a href="index.html">Home</a></li>
+				        <li><a href="about.html">About</a></li>
+				        <li><a href="archive.html">Archive</a></li>
+				        <li><a href="#">Contact</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
 
-<!-- Introduction -->
-<div class="intro">
-    <div class="container">
-        <div class="units-row">
-            <div class="unit-10">
-                <img class="left" src="img/headport.jpeg" alt="">
-            </div>
-            <div class="unit-90">
-                <p class="p-intro">Hello, I’m Xinyi(Carol). I’m proud of being a student at the University of Michigan
-                    and Shanghai Jiao Tong University.</p>
-            </div>
-        </div>
-    </div>
-</div>
+	<!-- Introduction -->
+	<div class="intro">
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-10">
+			    	<img class="left" src="img/headport.jpeg" alt="">
+			    </div>
+			    <div class="unit-90">
+			    	<p class="p-intro">Hello, I’m Xinyi(Carol). I’m proud of being a student at the University of Michigan
+                        and Shanghai Jiao Tong University.</p>
+			    </div>
+			</div>
+		</div>
+	</div>
 
 
-<!-- Content -->
+	<!-- Content -->
+	<div class="content">
+		<div class="container">
+			<!-- Post -->
+			<div class="post">
+				<!-- Heading -->
+				<a href="#"><h1>Hello World</h1></a>
+				<hr>
+				<div class="in-content">
+					<p>
+						Greetings! I am Xinyi Carol Zheng, a senior <a href="https://cse.umich.edu/">Computer Science Engineering</a>
+						student at the <a href="https://www.umich.edu/">University of Michigan</a>. I am honorable to be in
+						a dual Bachelor's program from <a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>,
+						a prestigious university in China. Besides Computer Science, I also minor in Math, where optimization
+						interests me most. My research interests lie in Natural Language Processing and Computational
+						Social Science. GO BLUE!
+					</p>
+                    <p>
+                        Check my <a href="./cv/CV_Xinyi_Zheng.pdf">CV</a> here. There is a more detailed introduction
+                        about myself in About Tag on the top and Read More below.
+                    </p>
+					<a class="read-more" href="about.html">Read more</a>
+				</div>
+			</div>
+			<!-- /post -->
+		</div>
+	</div>
+	<!--
+	<div id="calendarContainer"></div>
+	<div id="organizerContainer"></div>
+	<script src="./js/calendarorganizer.min.js"></script>
+	<script>
+    "use strict";
+
+    // function that creates dummy data for demonstration
+    function createDummyData() {
+        var date = new Date();
+        var data = {};
+
+        for (var i = 0; i < 10; i++) {
+            data[date.getFullYear() + i] = {};
+
+            for (var j = 0; j < 12; j++) {
+                data[date.getFullYear() + i][j + 1] = {};
+
+                for (var k = 0; k < Math.ceil(Math.random() * 10); k++) {
+                    var l = Math.ceil(Math.random() * 28);
+
+                    try {
+                        data[date.getFullYear() + i][j + 1][l].push({
+                            startTime: "10:00",
+                            endTime: "12:00",
+                            text: "Some Event Here"
+                        });
+                    } catch (e) {
+                        data[date.getFullYear() + i][j + 1][l] = [];
+                        data[date.getFullYear() + i][j + 1][l].push({
+                            startTime: "10:00",
+                            endTime: "12:00",
+                            text: "Some Event Here"
+                        });
+                    }
+                }
+            }
+        }
+
+        return data;
+    }
+
+    // creating the dummy static data
+    var data = createDummyData();
+
+    // initializing a new calendar object, that will use an html container to create itself
+    var calendar = new Calendar("calendarContainer", // id of html container for calendar
+        "small", // size of calendar, can be small | medium | large
+        [
+            "Wednesday", // left most day of calendar labels
+            3 // maximum length of the calendar labels
+        ], [
+            "#ffc107", // primary color
+            "#ffa000", // primary dark color
+            "#ffffff", // text color
+            "#ffecb3" // text dark color
+        ],
+        {
+            // placeholder: "" // Removes Organizer's Placeholder
+            placeholder: "<button style='width: calc(100% - 16px); background-color: #E6E6E6; border-radius: 6px; margin: 8px; border: none; padding: 12px 0px; cursor: pointer; position: relative'>Add New Event</button>"
+        }
+    );
+
+    // initializing a new organizer object, that will use an html container to create itself
+    var organizer = new Organizer("organizerContainer", // id of html container for calendar
+        calendar, // defining the calendar that the organizer is related to
+        data // giving the organizer the static data that should be displayed
+    );
+	</script>
+	-->
+
+
+
 <div class="content">
-    <div class="container">
-        <!-- Post -->
-        <div class="post">
-            <!-- Heading -->
-            <a href="#"><h1>Hello World</h1></a>
-            <hr>
-            <div class="in-content">
-                <p>
-                    Greetings! I am Xinyi Carol Zheng, a senior <a href="https://cse.umich.edu/">Computer Science
-                    Engineering</a>
-                    student at the <a href="https://www.umich.edu/">University of Michigan</a>. I am honorable to be in
-                    a dual Bachelor's program from <a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>,
-                    a prestigious university in China. Besides Computer Science, I also minor in Math, where
-                    optimization
-                    interests me most. My research interests lie in Natural Language Processing and Computational
-                    Social Science. GO BLUE!
-                </p>
-                <p>
-                    Check my <a href="./cv/CV_Xinyi_Zheng.pdf">CV</a> here. There is a more detailed introduction
-                    about myself in About Tag on the top and Read More below.
-                </p>
-                <a class="read-more" href="about.html">Read more</a>
-            </div>
-        </div>
-        <!-- /post -->
-    </div>
-</div>
+		<div class="container">
+			<!-- Post -->
+			<div class="post">
+				<!-- Heading -->
+				<a href="#"><h1>BACK HOME!</h1></a>
+				<p>6/22/2018</p>
+				<div class="in-content">
+					<p>
+						I'm back in China from June 24th to July 3th. Here is the tentative schedule for me. Please send
+						me a message if I am free & you are free & we can meet! Due to my poor front-end skill, I
+						finally fail to add a beautiful dynamic calendar to my webpage, I promise I have tried! If you can
+						help me, please reach out! All the time below is GMT+8:00.
+					</p>
+					<p>
+						June 25th, Mon.<br>
+						DL 583 DTW -> PVG, family reunion at night
+					</p>
+					<p>
+						June 26th, Tues.<br>
+						Morning: Go to dentist
+					</p>
+					<p>
+						June 28th, Thur.<br>
+						Morning: Go to hospital, have a thorough check for my poor eyes : (<br>
+						Afternoon: Visiting SJTU<br>
+						Night: SJTU, I miss the playgroud soooo much! I want take a long run!(南体）
+					</p>
+					<p>
+						June 29th, Fri.<br>
+						Morning: Research online meeting with Nikita<br>
+						All day in SJTU!<br>
+						Dear old friends, let's meet!
+					</p>
+					<p>
+						June 30th, Sat.<br>
+						Lunch with my parents' friends & their children! Ready to spread the magic of computer science to
+						my peers!
+					</p>
+					<p>
+						June 31th, Sun. <br>
+						All day reserved for my parents to schedule what I should do.
+					</p>
+					<p>
+						July 3th, Tues. <br>
+						Leaving day, I will miss all the people here in Shanghai, see you later! <br>
+						Ready to go back and work
+						in A2!
+					</p>
+				</div>
+				<div class="foot-post">
+					<div class="units-row">
+						<div class="unit-100">
+							<strong>Tags:</strong>
+							<a href="#">Misc</a>,
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-<div class="content" style="display: none">
-    <div class="container">
-        <div class="row">
-            <div class="unit-50 unit-centered">
-                <div id="calendarContainer"></div>
-            </div>
-            <div class="unit-50 unit-centered">
-                <div id="organizerContainer"></div>
-            </div>
-        </div>
-    </div>
-</div>
+	<footer>
+		<div class="container">
+			<p class="text-centered foot-cp">
+	    		<a href="#">handcrafted by @flamekaizar</a>
+	    	</p>
+		</div>
+	</footer>
 
-<div class="content">
-    <div class="container">
-        <!-- Post -->
-        <div class="post">
-            <!-- Heading -->
-            <a href="#"><h1>BACK HOME!</h1></a>
-            <p>6/22/2018</p>
-            <div class="in-content">
-                <p>
-                    I'm back in China from June 24th to July 3th. Here is the tentative schedule for me. Please send
-                    me a message if I am free & you are free & we can meet! Due to my poor front-end skill, I
-                    finally fail to add a beautiful dynamic calendar to my webpage, I promise I have tried! If you can
-                    help me, please reach out! All the time below is GMT+8:00.
-                </p>
-                <p>
-                    June 25th, Mon.<br>
-                    DL 583 DTW -> PVG, family reunion at night
-                </p>
-                <p>
-                    June 26th, Tues.<br>
-                    Morning: Go to dentist
-                </p>
-                <p>
-                    June 28th, Thur.<br>
-                    Morning: Go to hospital, have a thorough check for my poor eyes : (<br>
-                    Afternoon: Visiting SJTU<br>
-                    Night: SJTU, I miss the playgroud soooo much! I want take a long run!(南体）
-                </p>
-                <p>
-                    June 29th, Fri.<br>
-                    Morning: Research online meeting with Nikita<br>
-                    All day in SJTU!<br>
-                    Dear old friends, let's meet!
-                </p>
-                <p>
-                    June 30th, Sat.<br>
-                    Lunch with my parents' friends & their children! Ready to spread the magic of computer science to
-                    my peers!
-                </p>
-                <p>
-                    June 31th, Sun. <br>
-                    All day reserved for my parents to schedule what I should do.
-                </p>
-                <p>
-                    July 3th, Tues. <br>
-                    Leaving day, I will miss all the people here in Shanghai, see you later! <br>
-                    Ready to go back and work
-                    in A2!
-                </p>
-            </div>
-            <div class="foot-post">
-                <div class="units-row">
-                    <div class="unit-100">
-                        <strong>Tags:</strong>
-                        <a href="#">Misc</a>,
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<footer>
-    <div class="container">
-        <p class="text-centered foot-cp">
-            <a href="#">handcrafted by @flamekaizar</a>
-        </p>
-    </div>
-</footer>
-
-<!-- Javascript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/kube.min.js"></script>
-<script src="js/calendarorganizer.min.js"></script>
-<script src="index.js"></script>
-
+	<!-- Javascript -->
+    <script src="./js/kube.min.js"></script>
 </body>
 </html>
