@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
     <title>Xinyi(Carol) Zheng</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/custom.min.css" />
-    <link rel="shortcut icon" href="img/um.png" />
+    <link rel="shortcut icon" href="img/um.png">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+	<link href="./css/calendarorganizer.min.css" rel="stylesheet">
 </head>
 
 
@@ -24,7 +25,7 @@
 		<div class="container">
 			<header class="group top-nav">
 				<nav class="navbar logo-w navbar-left" >
-					<a class="logo" href="index.html">Xinyi Carol Zheng</a>
+					<a class="logo" href="index.html">Carol Xinyi Zheng</a>
 				</nav>
 			    <nav id="navbar-1" class="navbar item-nav navbar-right">
 				    <ul>
@@ -52,7 +53,8 @@
 			</div>
 		</div>
 	</div>
-	
+
+
 	<!-- Content -->
 	<div class="content">
 		<div class="container">
@@ -80,17 +82,121 @@
 			<!-- /post -->
 		</div>
 	</div>
+	<!--
+	<div id="calendarContainer"></div>
+	<div id="organizerContainer"></div>
+	<script src="./js/calendarorganizer.min.js"></script>
+	<script>
+    "use strict";
 
-	<div class="content">
+    // function that creates dummy data for demonstration
+    function createDummyData() {
+        var date = new Date();
+        var data = {};
+
+        for (var i = 0; i < 10; i++) {
+            data[date.getFullYear() + i] = {};
+
+            for (var j = 0; j < 12; j++) {
+                data[date.getFullYear() + i][j + 1] = {};
+
+                for (var k = 0; k < Math.ceil(Math.random() * 10); k++) {
+                    var l = Math.ceil(Math.random() * 28);
+
+                    try {
+                        data[date.getFullYear() + i][j + 1][l].push({
+                            startTime: "10:00",
+                            endTime: "12:00",
+                            text: "Some Event Here"
+                        });
+                    } catch (e) {
+                        data[date.getFullYear() + i][j + 1][l] = [];
+                        data[date.getFullYear() + i][j + 1][l].push({
+                            startTime: "10:00",
+                            endTime: "12:00",
+                            text: "Some Event Here"
+                        });
+                    }
+                }
+            }
+        }
+
+        return data;
+    }
+
+    // creating the dummy static data
+    var data = createDummyData();
+
+    // initializing a new calendar object, that will use an html container to create itself
+    var calendar = new Calendar("calendarContainer", // id of html container for calendar
+        "small", // size of calendar, can be small | medium | large
+        [
+            "Wednesday", // left most day of calendar labels
+            3 // maximum length of the calendar labels
+        ], [
+            "#ffc107", // primary color
+            "#ffa000", // primary dark color
+            "#ffffff", // text color
+            "#ffecb3" // text dark color
+        ],
+        {
+            // placeholder: "" // Removes Organizer's Placeholder
+            placeholder: "<button style='width: calc(100% - 16px); background-color: #E6E6E6; border-radius: 6px; margin: 8px; border: none; padding: 12px 0px; cursor: pointer; position: relative'>Add New Event</button>"
+        }
+    );
+
+    // initializing a new organizer object, that will use an html container to create itself
+    var organizer = new Organizer("organizerContainer", // id of html container for calendar
+        calendar, // defining the calendar that the organizer is related to
+        data // giving the organizer the static data that should be displayed
+    );
+	</script>
+	-->
+
+
+
+<div class="content">
 		<div class="container">
 			<!-- Post -->
 			<div class="post">
 				<!-- Heading -->
-				<a href="#"><h1>Some encouraging words</h1></a>
-				<p>6/5//2018</p>
+				<a href="#"><h1>BACK HOME!</h1></a>
+				<p>6/23/2018</p>
 				<div class="in-content">
 					<p>
-						Today is my 21th birthday.
+						I'm back in China from June 24th to July 3th. Here is the tentative schedule for me. Please send
+						me a message if I am free & you are free & we can meet! Due to my poor front-end skill, I
+						finally fail to add a beautiful dynamic calendar to my webpage, I promise I have tried! If you can
+						help me, please reach out! All the time below is GMT+8:00.
+					</p>
+					<p>
+						June 25th, Mon.<br>
+						DL 583 DTW -> PVG, family reunion at night
+					</p>
+					<p>
+						June 26th, Tues.<br>
+						Morning: Go to dentist
+					</p>
+					<p>
+						June 28th, Thur.<br>
+						Morning: Go to hospital, have a thorough check for my poor eyes : (<br>
+						Afternoon: Visiting SJTU<br>
+						Night: SJTU, I miss the playgroud soooo much! I want take a long run!(南体）
+					</p>
+					<p>
+						June 29th, Fri.<br>
+						Morning: Research online meeting with Nikita<br>
+						All day in SJTU!<br>
+						Dear old friends, let's meet!
+					</p>
+					<p>
+						June 30th, Sat.<br>
+						Lunch with my parents' friends & their children! Ready to spread the magic of computer science to
+						my peers!
+					</p>
+					<p>
+						June 31th, Sun. <br>
+						All day reserved for my parents to schedule what I should do.
 					</p>
 				</div>
 				<div class="foot-post">
@@ -102,7 +208,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- /post -->
 		</div>
 	</div>
 
@@ -115,7 +220,6 @@
 	</footer>
 
 	<!-- Javascript -->
-	<script src="js/jquery.min.js"></script>
-    <script src="js/kube.min.js"></script>
+    <script src="./js/kube.min.js"></script>
 </body>
 </html>
