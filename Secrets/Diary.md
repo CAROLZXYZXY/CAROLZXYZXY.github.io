@@ -13,3 +13,7 @@ It rains all day. Although I don't need to do research now, I stil get myself so
 It is so hard to be a human. Today I wrote some code, and I went to Rada's home for a party. I have to say her home is so great, and really warm my heart. But it seems far away from my life. Our NLP project is so hard sometimes. There are still a bunch of things to do tomorrow. I feel much better when I answered questions on piazza. Maybe I need to teach more, to gain some positive feeling.
 
 ## Dec. 3rd
+
+Today is a dramatic day. My mood is not that good actually. Firstly I'm bothered with NLP project. Next, I have 484 homework due tomorrow, but contents are taught today. I lose mood in front of my mentor, actually this is not the first time. She continuously encourages me to face the day. I feel relieved about that. At night we had a wonderful meeting, and Gavin pointed out the error we got when training out model. Hope my model works good today. Hope tomorrow is a good day. Smile & Be happy!
+
+## Dec. 4th
