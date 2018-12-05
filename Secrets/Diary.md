@@ -17,3 +17,8 @@ It is so hard to be a human. Today I wrote some code, and I went to Rada's home 
 Today is a dramatic day. My mood is not that good actually. Firstly I'm bothered with NLP project. Next, I have 484 homework due tomorrow, but contents are taught today. I lose mood in front of my mentor, actually this is not the first time. She continuously encourages me to face the day. I feel relieved about that. At night we had a wonderful meeting, and Gavin pointed out the error we got when training out model. Hope my model works good today. Hope tomorrow is a good day. Smile & Be happy!
 
 ## Dec. 4th
+
+Today is a good day! I feel good. Although there is still a lot of pressure of research, I feel that as long as there is someting going on, it is fine at all.
+
+## Dec. 5th
+
