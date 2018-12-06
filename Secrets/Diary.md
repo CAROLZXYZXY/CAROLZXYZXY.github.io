@@ -21,4 +21,7 @@ Today is a dramatic day. My mood is not that good actually. Firstly I'm bothered
 Today is a good day! I feel good. Although there is still a lot of pressure of research, I feel that as long as there is someting going on, it is fine at all.
 
 ## Dec. 5th
+A productive but so tired day. I did NLP presentation, and I wrote a bunch of network programs on generating features, which are all multi-processsing programs!! I feel a bit bad in the afternoon, maybe because looking at others' work, I am tooweak, and I don't deserve my title. I'm better at night. And I slept in my office today. It's too late, and I'm too lazy to go home as well
+
+## Dec. 6th
 
