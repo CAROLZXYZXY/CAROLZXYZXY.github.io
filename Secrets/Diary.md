@@ -24,4 +24,5 @@ Today is a good day! I feel good. Although there is still a lot of pressure of r
 A productive but so tired day. I did NLP presentation, and I wrote a bunch of network programs on generating features, which are all multi-processsing programs!! I feel a bit bad in the afternoon, maybe because looking at others' work, I am tooweak, and I don't deserve my title. I'm better at night. And I slept in my office today. It's too late, and I'm too lazy to go home as well
 
 ## Dec. 6th
-
+Today is a hard but relieving day. I went to caps, and knew about cognitive behavioral therapy. Hope it works out. I need sleep!! I don't want to be headache.
+Carol, don't be a should statement person at all!!
