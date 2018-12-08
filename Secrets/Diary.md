@@ -26,3 +26,9 @@ A productive but so tired day. I did NLP presentation, and I wrote a bunch of ne
 ## Dec. 6th
 Today is a hard but relieving day. I went to caps, and knew about cognitive behavioral therapy. Hope it works out. I need sleep!! I don't want to be headache.
 Carol, don't be a should statement person at all!!
+
+## Dec. 7th
+Today is a fair day. I watched the documentary "Three Identical Strangers", and I did the laundry. Possiby the first rest day after a while.Carol, please don't stay up, and sleep early from today.
+
+## Dec. 8th
+
