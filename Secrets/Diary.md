@@ -31,4 +31,4 @@ Carol, don't be a should statement person at all!!
 Today is a fair day. I watched the documentary "Three Identical Strangers", and I did the laundry. Possiby the first rest day after a while.Carol, please don't stay up, and sleep early from today.
 
 ## Dec. 8th
-
+Today is a fantastic day : )
