@@ -32,3 +32,9 @@ Today is a fair day. I watched the documentary "Three Identical Strangers", and 
 
 ## Dec. 8th
 Today is a fantastic day : )
+
+
+## Dec. 25th
+I was in Seattle from Dec. 21th - Dec. 24th, and then I came to Portland. Although this is the holiday in the States (which means nothing good to eat), I haven't enjoyed myself such for so long.
+I had a three-hour karaoke, and watched the movie Love Actually at airbnb. I enjoyed the moment of singing so much, especially for the songs which brought my memory to the scene. What a wonderful day!
+My parents will come soon. Hope all things are going well then.
