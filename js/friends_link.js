@@ -17,7 +17,8 @@ var sites = [
     'https://ducbui.io/',
     'https://c-t-a.me/',
     'https://ificl.github.io/#',
-    'https://pyjhzwh.github.io/'
+    'https://pyjhzwh.github.io/',
+    'https://ddshan.github.io/'
 ];
 function randomSite() {
     var i = parseInt(Math.random() * sites.length);
