@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eb308a07-c049-4eb9-8829-d432ad24e40c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/friends_link.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/friends_link.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="120" selection-start-line="120" selection-end-line="120" />
+            <state relative-caret-position="1672">
+              <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/friends_link.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="380">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -79,7 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>social</find>
       <find>'Dom'</find>
       <find>render</find>
       <find>kube.min</find>
@@ -109,6 +109,7 @@
       <find>body</find>
       <find>jquery</find>
       <find>upload.js</find>
+      <find>About</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,8 +156,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
   </component>
@@ -298,16 +299,22 @@
       <workItem from="1566919310613" duration="552000" />
       <workItem from="1578413159882" duration="4367000" />
       <workItem from="1578418311017" duration="77000" />
+      <workItem from="1578418597787" duration="218000" />
+      <workItem from="1578422215851" duration="111000" />
+      <workItem from="1578695669158" duration="310000" />
+      <workItem from="1578885877702" duration="57000" />
+      <workItem from="1585437806963" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103245000" />
+    <option name="totallyTimeSpent" value="103984000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="774" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16138126" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1429706" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -347,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="1672">
+          <caret line="88" column="12" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -377,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/friends_link.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
