@@ -10,7 +10,7 @@ module.exports = {
     title: `Carol Xinyi Zheng`,
     description: `My website.`,
     copyrights: '',
-    author: `@panr`,
+    author: `@CAROLZXYZXY`,
     logo: {
       src: '',
       alt: '',

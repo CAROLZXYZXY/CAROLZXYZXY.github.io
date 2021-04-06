@@ -1,17 +1,9 @@
 {
-  "name": "gatsby-starter-hello-friend",
-  "description": "A simple starter for Gatsby. That's it.",
+  "name": "carolzxyzxy-personal-website",
   "version": "0.2.0",
-  "author": "Radek Kozieł <radoslaw.koziel@gmail.com>",
+  "author": "Carol Xinyi Zheng's website",
   "keywords": [
     "gatsby",
-    "minimal",
-    "starter",
-    "blog",
-    "theme",
-    "dark",
-    "light",
-    "personal site"
   ],
   "license": "MIT",
   "scripts": {
