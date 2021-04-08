@@ -5,7 +5,7 @@ author: "Carol Xinyi Zheng"
 path: "/about"
 ---
 
-I am Carol Xinyi Zheng. I am a Phd student in Computer Science Department at Carnegie Mellong University.
+I am a Phd student in Computer Science Department at Carnegie Mellon University, advised by Prof. Christos Faloutsos and Prof. Dominik Moritz. I am doing research in the intersection of Machine Learning, Human Computer Interaction and Data Management. 
 
 Previously, I obtianed my Bachelor degree from the University of Michigan and Shanghai Jiao Tong University in Computer Science, Applied Mathematics and Electrical and Computer Engineering. 
 
