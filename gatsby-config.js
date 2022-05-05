@@ -25,10 +25,10 @@ module.exports = {
         title: 'About',
         path: '/about',
       },
-      {
-        title: 'Research',
-        path: '/research',
-      },
+      // {
+      //   title: 'Research',
+      //   path: '/research',
+      // },
       // {
       //   title: 'Example',
       //   path: '/example',
