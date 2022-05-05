@@ -15,7 +15,7 @@ I am currently interested in:
 - large-scale algorithms for graphs and time series data (and the interplay, dynamic graphs), as well as their applications in various domains
 - building user-friendly tools to automate data analytics and machine learning (visualization, insight generation, etc)
 
-## I am open to review opportunities
+<!-- ## I am open to review opportunities -->
 
 <!-- The starter includes:
 
