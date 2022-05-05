@@ -5,7 +5,7 @@ author: "Carol Xinyi Zheng"
 path: "/about"
 ---
 
-I am a PhD student in Computer Science Department. I am doing research in the intersection of Machine Learning, Human Computer Interaction and Data Management. 
+I am a PhD student in Computer Science Department, Carnegie Mellon University. I am doing research in the intersection of Machine Learning, Human Computer Interaction and Data Management. 
 
 Previously, I obtianed my Bachelor degree from the University of Michigan and Shanghai Jiao Tong University in Computer Science, Applied Mathematics and Electrical and Computer Engineering. 
 
