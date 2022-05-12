@@ -1,6 +1,6 @@
 ---
 title: "Network Report: A Structured Description for Network Datasets"
-date: "2018-05-10"
+date: "2020-05-12"
 author: "Carol"
 path: "/report"
 ---
@@ -17,7 +17,7 @@ The rapid development of network science and technologies depends on shareable d
 <section id="contact">
   <div>
     <iframe
-    src="assets/report/pokec_v2.pdf#toolbar=0&navpanes=0&scrollbar=0"
+    src="https://carolzxyzxy.github.io/assets/report/pokec_v2.pdf#toolbar=0&navpanes=0&scrollbar=0"
     frameBorder="0"
     scrolling="auto"
     height="600pt"
@@ -41,7 +41,7 @@ Visualization researchers may be interested in developing specific techniques fo
 <section id="mooc">
   <div>
     <iframe
-    src="assets/report/mooc_v2.pdf#toolbar=0&navpanes=0&scrollbar=0"
+    src="https://carolzxyzxy.github.io/assets/report/mooc_v2.pdf#toolbar=0&navpanes=0&scrollbar=0"
     frameBorder="0"
     scrolling="auto"
     height="600pt"
@@ -64,7 +64,7 @@ Thus network dataset consumers could consider imbalanced classification techniqu
 <section id="pokec">
   <div>
     <iframe
-    src="assets/report/contact_v5.pdf#toolbar=0&navpanes=0&scrollbar=0"
+    src="ahttps://carolzxyzxy.github.io/assets/report/contact_v5.pdf#toolbar=0&navpanes=0&scrollbar=0"
     frameBorder="0"
     scrolling="auto"
     height="600pt"
