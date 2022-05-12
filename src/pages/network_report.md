@@ -10,8 +10,11 @@ The rapid development of network science and technologies depends on shareable d
 
 [[Code]](https://drive.google.com/drive/folders/1oRM6x3gdnWjNcu7Sl_nq0BYCQF7CcG9X?usp=sharing)
 
-## Supplemental materials
+## Supplemental Materials
 ### Case Study 
+<section id="case">
+</section>
+
 #### 1. High School Contact Network
 
 <section id="contact">
